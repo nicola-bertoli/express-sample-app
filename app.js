@@ -13,6 +13,8 @@ const app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
+console.log("ciao");
+
 app.use(logger)
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
