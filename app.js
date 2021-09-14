@@ -13,7 +13,7 @@ const app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
-console.log("ciao2");
+console.log("ciao3");
 
 app.use(logger)
 app.use(express.json());
